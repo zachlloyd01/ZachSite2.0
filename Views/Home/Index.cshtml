@@ -1,0 +1,46 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+
+	if (!string.IsNullOrEmpty(ViewBag.contactSuccess))
+	{
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
+			<strong>Success!</strong> The contact form was submitted!
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		ViewBag.contactSuccess = string.Empty;
+	}
+}
+
+<div class="jumbotron">
+	<h1>Zach Lloyd</h1>
+	<p class="lead">A Cognitive Science and Machine Learning Major at the <a href="https://ucsd.edu/" target="_blank">University of California, San Diego</a>, with a passion for game design, web development, and artificial intelligence.</p>
+	<p><a href="https://github.com/zachlloyd01" target="_blank" class="btn btn-primary btn-lg">Check Out My Github &raquo;</a></p>
+</div>
+
+<div class="row">
+	<div class="col-md-4">
+		<h2>Programming Languages</h2>
+		<p>
+			The language I use most often for projects is c# due to its versatility and
+			high ratio of use in industry, but I also am fluent in Python, its companion web
+			framework Django, and Processing 3/Java 8.
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Classes</h2>
+		<p>
+			In school, most of my classes focus on what is actually used in industry, which means that classes use either Java or Python, rather than
+			teaching skills that will never be used. Moreover, most classes are project-based, meaning I get experience working in teams, and coding
+			things that are interesting and useful.
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Web Development</h2>
+		<p>
+			I am currently working as a freelance web developer, focusing on personal websites and small ecommerce platforms. My sites are programmed in Microsoft's
+			dotNet MVC, a powerful platform written in c# designed for speed and simplicity.
+		<p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
+	</div>
+</div>
