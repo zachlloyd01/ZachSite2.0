@@ -1,0 +1,6 @@
+C:\Users\zachl\source\repos\DB\bin\Debug\DB.dacpac
+C:\Users\zachl\source\repos\DB\bin\Debug\DB.dll
+C:\Users\zachl\source\repos\DB\bin\Debug\DB.pdb
+C:\Users\zachl\source\repos\DB\obj\Debug\DB.sqlprojAssemblyReference.cache
+C:\Users\zachl\source\repos\DB\obj\Debug\DB.dll
+C:\Users\zachl\source\repos\DB\obj\Debug\DB.pdb
